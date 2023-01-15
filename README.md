@@ -33,14 +33,6 @@ cd bin
 ./HW1
 ```
 
-Build in debug mode
-```bash=
-cmake -S . -B build -D CMAKE_BUILD_TYPE=Debug
-cmake --build build --config Debug --parallel 8
-cd bin
-./HW1
-```
-
 ---
 
 # Computer Special Effects on Physical Based Simulation - HW2 Forward Kinematics
@@ -74,14 +66,6 @@ Build in release mode
 ```bash=
 cmake -S . -B build -D CMAKE_BUILD_TYPE=Release
 cmake --build build --config Release --parallel 8
-cd bin
-./HW2
-```
-
-Build in debug mode
-```bash=
-cmake -S . -B build -D CMAKE_BUILD_TYPE=Debug
-cmake --build build --config Debug --parallel 8
 cd bin
 ./HW2
 ```
