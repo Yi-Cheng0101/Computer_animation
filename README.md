@@ -27,6 +27,8 @@ On *FreeBSD*
 
 Build in release mode
 ```bash=
+cd Computer_animation
+cd HW1
 cmake -S . -B build -D CMAKE_BUILD_TYPE=Release
 cmake --build build --config Release --parallel 8
 cd bin
@@ -64,6 +66,8 @@ On *FreeBSD*
 
 Build in release mode
 ```bash=
+cd Computer_animation
+cd HW2
 cmake -S . -B build -D CMAKE_BUILD_TYPE=Release
 cmake --build build --config Release --parallel 8
 cd bin
