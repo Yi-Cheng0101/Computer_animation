@@ -1,5 +1,3 @@
-# NYCU CA2022 Homework 1
-
 ## Dependencies
 
 - [Eigen](https://eigen.tuxfamily.org)
